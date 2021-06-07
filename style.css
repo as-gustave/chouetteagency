@@ -292,6 +292,10 @@ a:hover {
     z-index: 1;
 }
 
+.citation{
+    font-style: italic;
+}
+
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -648,10 +652,12 @@ h6,
 p,
 label,
 .btn,
+.citation,
 a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+
 }
 
 .container {
@@ -704,7 +710,7 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h2, .citation {
     font-size: 22px;
     line-height: 1.4em;
 }
@@ -901,6 +907,7 @@ h4 {
     h5,
     h6,
     p,
+    .citation,
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
