@@ -653,7 +653,7 @@ p,
 label,
 .btn,
 .citation,
-a {
+.lien {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -686,6 +686,26 @@ p {
     font-size: 14px;
 }
 
+.large{
+    font-size: large;
+}
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+    margin-bottom: 2%;
+}
+
+footer a{
+    color: #C4C4C4;
+    font-size: large;
+}
+footer a:hover{
+    color: white;
+    font-weight: bolder;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -708,12 +728,14 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    margin-bottom: 3%;
 }
 
 h2, .citation {
     font-size: 22px;
     line-height: 1.4em;
 }
+
 
 h3 {
     font-size: 15px;
@@ -729,7 +751,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #DB5020!important;
 }
 
 h4 {
@@ -743,6 +765,15 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+
+.grey{
+    color: #C4C4C4!important;
+}
+
+.footer__head{
+    font-size: x-large;
+    margin-bottom:2%;
 }
 
 .portfolio-thumb {
@@ -777,20 +808,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #aa522a;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #EF6F34!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #EF6F34;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #ce571f!important;
     color: #FFFFFF!important;
 }
 
