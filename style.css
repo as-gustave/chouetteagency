@@ -763,6 +763,11 @@ h4 {
     margin-top: 24px;
 }
 
+.large {
+    font-size: larger;
+    margin-bottom: 3%;
+}
+
 .white {
     color: #FFFFFF!important;
 }
