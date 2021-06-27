@@ -703,7 +703,7 @@ footer a{
 }
 footer a:hover{
     color: white;
-    font-weight: bolder;
+    text-decoration: none ;
 }
 
 .tight-width-whitespace {
@@ -765,6 +765,8 @@ h4 {
 
 a{
     text-decoration: underline;
+    text-decoration-style: double;
+    
 }
 
 .large {
