@@ -763,6 +763,10 @@ h4 {
     margin-top: 24px;
 }
 
+a{
+    text-decoration: underline;
+}
+
 .large {
     font-size: larger;
     margin-bottom: 3%;
