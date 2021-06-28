@@ -484,6 +484,10 @@ button {
     padding: 0.3cm;
 }
 
+.information{
+    padding: 10%;
+}
+
 .icon-lg {
     font-size: 60px!important;
 }
